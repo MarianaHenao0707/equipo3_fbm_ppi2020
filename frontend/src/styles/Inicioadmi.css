@@ -1,0 +1,115 @@
+main {
+    padding-bottom: 780px 60px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+/*nO SÉ QUE ES*/
+.contenedor {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+}
+
+.columna-uno {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.COLUMNA {
+    padding: 30px;
+    width: 499px -499;
+    height: 450px;
+    background: black (148, 162, 184);
+    color: black ;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 13px 13px 4px -3px black (133, 133, 133, 0.578);
+    border: 7px solid black (215, 222, 222);
+}
+
+.columna-uno .Avatar {
+    margin-left: 24px;
+    margin-top: -100px;
+}
+
+.COLUMNA .Avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid black;
+    left: calc(44% - 50px);
+}
+
+.COLUMNA h2 {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+}
+
+
+.COLUMNA label {
+    margin: 20px;
+    padding: 20px;
+    font-family: serif;
+    font-size: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.COLUMNA input {
+    width: 100%;
+    margin-bottom: 250px;
+    color: green;
+}
+
+.COLUMNA input[type="text"],
+.COLUMNA input[type="contraseña"] {
+    border: none;
+    border-bottom: 1px solid green;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: green;
+    font-size: 19px;
+    font-family: serif;
+    border-radius: 5px;
+    color: green (69, 69, 70);
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: purple (69, 69, 70);
+    font-family: serif;
+    font-size: 17px;
+}
+
+.COLUMNA input[type="submit"] {
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 90px;
+    background: green;
+    font-size: 17px;
+    font-family: serif;
+    color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.COLUMNA .pregunta {
+    padding: 20px 0px;
+}
+
+
+.COLUMNA .pregunta a {
+    font-family: serif;
+    font-size: 15px;
+    margin: 5px;
+    color: green;
+    padding: 0px 15px 0px 15px;
+}

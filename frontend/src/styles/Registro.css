@@ -1,0 +1,112 @@
+
+main {
+    padding: 30px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.contenedor {
+    width: 350px;
+    height: 550px;
+    background:  lightblue;
+    color: orangered;
+    margin: auto;
+    top: 44%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-58%, -50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    border-radius: 15px;
+    border: 2px solid  (215, 222, 222);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .9);
+    margin-top: 50px;
+    
+}
+
+.Avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    border: 2px solid orangered;
+    margin-left: 3px;
+    margin-bottom: 400px;
+    position: absolute;
+    left: calc(44% - 50px);
+  
+}
+
+.contenedor h2 {
+    margin: 0;
+    padding:  20px;
+    text-align: center;
+    font-size: 39px;
+    font-family: serif;
+}
+
+
+.contenedor label {
+    margin: 20;
+    padding: 0;
+    font-family: serif;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor input {
+    width: 100%;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.contenedor input[type="text"],
+.contenedor input[type="Clave"] {
+    border: none;
+    border-bottom: 1px solid green;
+    
+    outline: none;
+    height: 35px;
+    color: green;
+    font-size: 19px;
+    font-family: serif;
+    border-radius: 5px;
+    color: blue (60, 60, 60);
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: blue (60, 60, 60);
+    font-family: serif;
+    font-size: 17px;
+}
+
+.contenedor input[type="submit"] {
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 60px;
+    width: 150px;
+    background: green;
+    font-family: serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.contenedor .pregunta {
+    padding: 5px 0px;
+}
+
+.contenedor .pregunta a {
+    font-family: serif;
+    font-size: 20px;
+    margin: 2px;
+    color: blue;
+    padding: 15px 0px 15px 0px;
+}

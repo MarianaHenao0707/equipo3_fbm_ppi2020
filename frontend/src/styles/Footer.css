@@ -1,0 +1,28 @@
+footer {
+    background: lightblue;
+    padding: 36px 0px 0px 0px;
+}
+.icon-text-text .social {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.icon-text-text .social li a {
+    padding-left: 25px;
+    padding-right: 20px;
+    
+}
+
+.segundo-footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightblue;
+}
+
+.segundo-footer p {
+    color: orangered;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
