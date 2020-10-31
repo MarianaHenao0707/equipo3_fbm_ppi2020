@@ -1,20 +1,11 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer'
-import '../styles/Principal.css';
+import CardImages from '../components/CardImages';
 
 
-
-function Principal(props){
+function Principal () {
     return(
-        <div>
-            <Header/>
-            
-            <main>
-</main>
-<Footer/>
-
-        </div>
-    );
+     <CardImages />
+    )
 }
+
 export default Principal;

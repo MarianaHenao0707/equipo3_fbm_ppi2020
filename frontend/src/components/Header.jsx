@@ -1,26 +1,35 @@
 import React from 'react';
-import '../styles/Header.css';
-import Logo from '../img/LOGO.jpg';
 import { Link } from 'react-router-dom';
 
-function Header(props) {
+//los compenentes tipo función stateless sin estado
+
+/*return(
+    <a key={`item-navBar-${index}`}
+    className="p-2 text-dark" 
+    href={item.url}>{item.name}</a>
+)*/
+ 
+export default function Header (props) {
     return (
-        <header>
-            <nav>
-                <img src={Logo}  width="50" height="50" alt="" loading="lazy" />
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food">
-                  
-                </button>
-                <ul>
-                    <li><Link to="/sesion">INGRESAR</Link></li>
-                </ul>
+        <>
+        <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+            <Link to="/" className="my-0 mr-md-auto text-decoration-none font-weight-normal text-primary">
+            <h5 >{props.companyName}</h5>
+            </Link>
+            <nav className="my-2 my-md-0 mr-md-3">
+            {props.navBar.map((item, index) => {
+               
+            })}
             </nav>
-            <section className="Texto-header">
-                <h1>EDUQUÉMONOS SOBRE LOS RESIDUOS</h1>
-                <h2></h2>
-            </section>
-            
-        </header> 
-    );
-}
-export default Header;
+        <Link to="/iniciosesion" className="btn btn-outline-primary" href="#">{props.infoButton}</Link>
+        
+        </div>
+       
+        
+        </>
+    )
+};
+
+
+
+
