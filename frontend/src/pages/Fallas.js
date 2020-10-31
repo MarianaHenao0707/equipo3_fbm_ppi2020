@@ -9,7 +9,7 @@ const Fallam = ()=>{
     return (
         <div>
           <section className="fallas">
-          <h1>Fallas de los servicios públicos  </h1>
+          <h1>¿Quiénes</h1>
           <h3>Ingresa tus dificultades en tus servicios</h3>
 
           <from className="comentario">

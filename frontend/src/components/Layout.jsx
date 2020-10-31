@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from  './Footer';
 
 
+
 /*{
   name:'Buscar',
   url:'/Buscar'
@@ -31,12 +32,12 @@ const Layout = (props) => {
     return(
         <>
         <Header 
-          companyName="Conociendo tus servicios públicos"
+          companyName="Eduquémonos sobre los residuos"
           navBar={[
           
           ]}
      
-          infoButton = "Iniciar Sesión"
+          infoButton = "Ingresar"
         />
 
 

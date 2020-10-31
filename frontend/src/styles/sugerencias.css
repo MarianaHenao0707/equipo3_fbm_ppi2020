@@ -4,16 +4,16 @@
 }
 .comentario {
     
-    margin: 0px 500px 0px 480px;
+    margin: 0px 497px 0px 497px;
     flex-wrap: wrap;
 }
 .comentario input[type="text"]{
     width: 400px;
-    height: 400px;
-    background: rgba(44, 101, 207, 0.466);
+    height: 100px;
+    background: lightblue;
     border-radius: 10px;
     border: none;
-    box-shadow: 5px 5px 3px 1px rgba(104, 102, 102, 0.781);
+    box-shadow: 5px 5px 3px 1px lightgreen;
 
   
 }
@@ -23,16 +23,15 @@
     height: 40px;
     border-radius: 30px;
     background: #007bff;
-    border: none;
-    box-shadow: 4px 4px 3px 1px rgba(104, 102, 102, 0.781);
-    color: #ffff;
+   
+   
 }
 .sugerir h3{
     text-align: center;
 }
 
 h1{
-    color:#007bff;
+    color: green;
     
 }
 

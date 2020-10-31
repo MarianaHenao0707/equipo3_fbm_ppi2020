@@ -12,11 +12,17 @@ function Sugerencias (){
 <section >
           <section className="sugerir">
               
-              <h1>Sugerencias </h1>
+              <h1>Quejas</h1>
             </section>
 
           </section>
-          <h3>Ingresa tus sugerencias</h3>
+          <h3>Nombre del denunciado/a o características, o dirección de residencia</h3>
+
+          <from className="comentario">
+              <input type="text" placeholder="" />
+              <input type="submit"value="Enviar"/>
+          </from>
+          <h3>¿Qué deseas reportar?</h3>
 
           <from className="comentario">
               <input type="text" placeholder="" />

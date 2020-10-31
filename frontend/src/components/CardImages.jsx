@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import buscar from '../images/buscar.png';
-import sugerencias from '../images/sugerencias.png';
-import fallas from '../images/fallas.png';
-import informate from '../images/informate.png';
-import notas from '../images/notas.png';
-import administrador from '../images/administrador.png';
+import buscar from '../images/informacion.png';
+import sugerencias from '../images/quejas.png';
+import fallas from '../images/ayuda.png';
+import informate from '../images/quienesom.png';
+import notas from '../images/preguntase.png';
 class CardImages extends Component {
     constructor(props) {
         super(props);
@@ -13,8 +12,10 @@ class CardImages extends Component {
     }
     render() { 
         return ( 
+          
 
  <div className="album py-5 bg-light">
+   <h1 className="h1 mb-5 font-weight-normal text-center text-primary">MENÚ</h1>
     <div className="container">
       <div className="row">
         <div className="col-md-4">
@@ -25,7 +26,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonbuscar'> <button  type="button" className="btn btn-sm btn-outline-primary">Buscar</button></Link>
+                <Link to='/botonbuscar'> <button  type="button" className="btn btn-sm btn-outline-primary">Información sobre los residuos</button></Link>
                   
                 </div>
                 
@@ -40,7 +41,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonSugerencias'><button type="button" className="btn btn-sm btn-outline-primary">Sugerencias</button></Link>
+                <Link to='/botonSugerencias'><button type="button" className="btn btn-sm btn-outline-primary">Quejas</button></Link>
                   
                 </div>
                 
@@ -55,7 +56,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonInformate'><button type="button" className="btn btn-sm btn-outline-primary">Informate</button></Link>
+                <Link to='/botonInformate'><button type="button" className="btn btn-sm btn-outline-primary">Ayuda</button></Link>
                   
                 </div>
                
@@ -71,7 +72,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonFallas'> <button type="button" className="btn btn-sm btn-outline-primary">Fallas</button></Link>
+                <Link to='/botonFallas'> <button type="button" className="btn btn-sm btn-outline-primary">Quiénes somos</button></Link>
                   
                 </div>
               </div>
@@ -86,7 +87,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonnotas'><button type="button" className="btn btn-sm btn-outline-primary">Notas</button></Link>
+                <Link to='/botonnotas'><button type="button" className="btn btn-sm btn-outline-primary">Preguntas evaluativas</button></Link>
                   
                 </div>
                 
@@ -94,48 +95,9 @@ class CardImages extends Component {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
-          <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={administrador} alt="" width="150" height="150"/>
-            <div className="card-body">
-              
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                <Link to='/botonAdministrador'><button type="button" className="btn btn-sm btn-outline-primary">Administrador</button></Link>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={administrador} alt="" width="150" height="150"/>
-            <div className="card-body">
-              
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                <Link to='/Perfil'><button type="button" className="btn btn-sm btn-outline-primary">Información de tu perfil</button></Link>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={administrador} alt="" width="150" height="150"/>
-            <div className="card-body">
-              
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                <Link to='/confiperfil'><button type="button" className="btn btn-sm btn-outline-primary">Configuarión de tu perfil</button></Link>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
+        
+
+
         
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from '../images/impag.png';
+import Logo from '../images/registro.png';
 import '../styles/registro.css';
 import { Link } from 'react-router-dom';
 
@@ -11,8 +11,8 @@ class Registro1 extends Component {
    <div className="container align-items-center mt-5 text-center">
     <form className="form-signin text-center align-items-center col -1">
     <img className="mb-4" src={Logo} alt="" width="150" height="150"/>
-    <h1 className="h1 mb-5 font-weight-normal text-center text-primary">Registro</h1>
-    <label for="inputname1" className="sr-only">Nombre/s</label>
+    <h1 className="h1 mb-5 font-weight-normal text-center text-primary">REGISTRO</h1>
+    <label for="inputname1" className="sr-only">Nombre</label>
     <input type="name" id="inputname" className="form-control mb-3 " placeholder="Nombre/s" required=""/>
     <label for="inputlastname" className="sr-only">Apellido/s</label>
     <input type="lastname" id="inputlastname" className="form-control mb-3 " placeholder="Apellido/s" required=""/>

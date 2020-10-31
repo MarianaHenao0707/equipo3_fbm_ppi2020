@@ -1,33 +1,33 @@
 export const data = [
     {
         id: 1,
-        tipoPago: "Buscar",
-        help: "Busca el sector o comuna en que estes ubicado@.",
+        tipoPago: "Información sobre los residuos",
+        help: "Información sobre los residuos.",
         buttonInfo: "Ingresar"
       },
 
       {
         id: 2,
-        tipoPago: "Sugerencias",
-        help: "Sugerencias para la pagina.",
+        tipoPago: "Quejas",
+        help: "Quejas.",
         buttonInfo: "Ingresar"
       },
       {
         id: 3,
-        tipoPago: "Notas",
-        help: "Notas de la pagina.",
+        tipoPago: "Ayuda",
+        help: "Ayuda.",
         buttonInfo: "Ingresar"
       },
       {
         id: 4,
-        tipoPago: "Informate",
-        help: "Informate de nuestra pagina.",
+        tipoPago: "¿Quiénes somos?",
+        help: "¿Quiénes somos?.",
         buttonInfo: "Ingresar"
       },
       {
         id: 5,
-        tipoPago: "Fallas",
-        help: "Reposta las fallas de tu sector o comuna.",
+        tipoPago: "Preguntas evaluativas",
+        help: "Preguntas.",
         buttonInfo: "Ingresar"
       },
 ]

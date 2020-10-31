@@ -1,4 +1,18 @@
 .notas h1{
-    color: #007bff;
+    color: orangered;
+    text-align: center;
+}
+
+.notas h2{
+    color: blue;
+    text-align: center;
+}
+
+.notas h3{
+    color: black;
+    text-align: center;
+}
+
+.notas {
     text-align: center;
 }
