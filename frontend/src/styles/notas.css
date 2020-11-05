@@ -1,18 +1,21 @@
-.notas h1{
-    color: orangered;
+.Notas h1{
+    font-family: serif;
+    color: #007bff;
     text-align: center;
+    padding: 70px 200px 50px 200px  ;
 }
 
-.notas h2{
-    color: blue;
-    text-align: center;
-}
-
-.notas h3{
+.Notas h2{
+    font-family: serif;
     color: black;
     text-align: center;
 }
 
-.notas {
-    text-align: center;
+.Notas input[type="submit"]{
+    margin: 20px 70px 0px 510px;
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    background: #007bff; 
+    font-family: cursive ;
 }

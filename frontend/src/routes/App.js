@@ -6,7 +6,7 @@ import Principal from '../pages/Principal';
 import Layout from '../components/Layout';
 import Registro from '../components/Registro';
 import Buscar from '../pages/Buscar';
-import Fallas from '../pages/Fallas';
+import Quienesomos from '../pages/Quienesomos';
 import Informate from '../pages/Informate';
 import Sugerencias from '../pages/Sugerencias';
 import Notas from '../pages/Notas';
@@ -30,6 +30,8 @@ const App = () =>{
         <Switch>
         <Route exact path="/iniciosesion" component={Register} />
         <Route exact path="/Registro" component={Registro} />
+        <Route exact path="/Administrador" component={Administrador} />
+
         
         <Layout>
          <Route exact path="/" component={Home} />
@@ -37,8 +39,8 @@ const App = () =>{
          <Route path="/buscar">
           <Buscar/>
         </Route>
-        <Route path="/fallas">
-          <Fallas/>
+        <Route path="/quienesomos">
+          <Quienesomos/>
         </Route>
         <Route path="/informate">
           <Informate/>
@@ -48,12 +50,41 @@ const App = () =>{
         </Route>
         <Route path="/notas">
           <Notas/>  
+          <Route path="/Buscar">
+          <Buscar/>  
+        </Route>
+        <Route path="/Buscar">
+          <Buscar/>  
+        </Route>
+        <Route path="/Buscar">
+          <Buscar/>  
+        </Route>
+        <Route path="/Buscar">
+          <Buscar/>  
+          <Route path="/Buscar">
+          <Buscar/>  
+        </Route>
+
+        <Route path="/Notas">
+          <Buscar/>  
+        </Route>
+        <Route path="/Notas">
+          <Buscar/>  
+        </Route>
+        <Route path="/Notas">
+          <Buscar/>  
+        </Route>  
+          <Route path="/Notas">
+          <Buscar/>  
+        </Route>
+
+        </Route>
         </Route>
         
         <Route path="/botonbuscar" component={Buscar} />
         <Route path="/botonSugerencias" component={Sugerencias} />
         <Route path="/botonInformate" component={Informate} />
-        <Route path="/botonFallas" component={Fallas} />
+        <Route path="/botonQuienesomos" component={Quienesomos} />
         <Route path="/botonnotas" component={Notas} />
         <Route path="/botonAdministrador" component={Administrador} />
         <Route path="/volver" component={elimensajes} />
@@ -69,6 +100,8 @@ const App = () =>{
         <Route path="/usuario" component={cambiarusuario} />
         <Route path="/correo" component={cambiarcorreo} />
         <Route path="/foto" component={editarfoto} />
+        
+        
         
         <Route path="/Perfil">
           <Perfil/>  

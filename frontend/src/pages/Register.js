@@ -11,7 +11,7 @@ export default function Register (){
     return (
       <>
        <Header
-       companyName="Conociendo tus servicios públicos"
+       companyName="Eduquémonos sobre los residuos"
        navBar={[
         {
           name:'Buscar',

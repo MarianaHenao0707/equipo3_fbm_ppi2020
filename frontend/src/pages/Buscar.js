@@ -1,34 +1,49 @@
 import React from 'react';
 import pricing from '../components/Pricing';
 import cardpricing from '../components/CardPricing';
-import Buscar from '../styles/buscar.css';
-import aguas from '../images/aguas.jpg';
+import buscar from '../styles/Buscar.css';
 
 
 
 
-function buscar (){
+
+function Buscar (){
     return (
         <div>
-             <section className="Buscar">
-          <h1>Información sobre los residuos</h1>
+<section className="Buscar">
           
-        </section>
-        
-  
-    <section className="Buscar">
-        
-    <h3>En este campo de texto puedes buscar la zona donde estas ubicado.</h3>
-    </section>
+<section >
+          <section className="Buscar">
+              
+              <h1>Información sobre los residuos</h1>
+            </section>
 
-    <section className="parrafo img">
-    <img className="Aguas" src={aguas}/>
-      
-    </section>
-    <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
+          </section>
+
+          <from className="Buscar">
+          <input type="submit"value="¿Qué son?"/>
+          </from>
+
+          <from className="Buscar">
+          <input type="submit"value="¿Cómo se deben separar?"/>
+          </from>
+
+          <from className="Buscar">
+          <input type="submit"value="Consecuencias"/>
+          </from>
+
+          <from className="Buscar">
+          <input type="submit"value="Solución a problemas"/>
+          </from>
+
+          <from className="Buscar">
+          <input type="submit"value="Avisos"/>
+          </from>
+        </section>
+        <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
     </div>
 
     );
     
 }
-export default buscar;
+export default Buscar;

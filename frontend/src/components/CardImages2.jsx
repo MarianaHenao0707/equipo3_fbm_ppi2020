@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import bloquear_usuarios from '../images/bloquear_usuarios.png';
-import eliminar_mensajes from '../images/eliminar_mensajes.png';
+import bloquearper from '../images/bloquearpers.png';
+import eliminarmens from '../images/eliminarsmj.png';
 import daños_reportados from '../images/daños_reportados.png';
 
 
@@ -19,7 +19,7 @@ class CardImages2 extends Component {
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={bloquear_usuarios} alt="" width="150" height="150"/>
+          <img className="mb-4" src={bloquearper} alt="" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center ">
@@ -34,7 +34,7 @@ class CardImages2 extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={eliminar_mensajes} alt="" width="150" height="150"/>
+          <img className="mb-4" src={eliminarmens} alt="" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">

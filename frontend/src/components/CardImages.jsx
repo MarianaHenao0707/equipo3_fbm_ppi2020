@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import buscar from '../images/informacion.png';
+import Buscar from '../images/informacion.png';
 import sugerencias from '../images/quejas.png';
 import fallas from '../images/ayuda.png';
 import informate from '../images/quienesom.png';
@@ -20,13 +20,13 @@ class CardImages extends Component {
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={buscar} alt="" width="150" height="150"/>
+          <img className="mb-4" src={Buscar} alt="" width="150" height="150"/>
          
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonbuscar'> <button  type="button" className="btn btn-sm btn-outline-primary">Información sobre los residuos</button></Link>
+                <Link to='/botonBuscar'> <button  type="button" className="btn btn-sm btn-outline-primary">Información sobre los residuos</button></Link>
                   
                 </div>
                 
@@ -72,7 +72,7 @@ class CardImages extends Component {
               
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonFallas'> <button type="button" className="btn btn-sm btn-outline-primary">Quiénes somos</button></Link>
+                <Link to='/botonQuienesomos'> <button type="button" className="btn btn-sm btn-outline-primary">Quiénes somos</button></Link>
                   
                 </div>
               </div>
@@ -95,6 +95,7 @@ class CardImages extends Component {
             </div>
           </div>
         </div>
+        
         
 
 

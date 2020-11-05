@@ -17,9 +17,6 @@ class Login extends Component {
     <label for="inputPassword" className="sr-only">Clave</label>
     <input type="password" id="inputPassword" className="form-control mb-3 " placeholder="Clave" required=""/>
     <div className="checkbox mb-3">
-    <label>
-      <input type="checkbox" value="Recordar"/> Recordar
-    </label>
     </div>
     <Link to="/principal" className="text-decoration-none">
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Iniciar Sesión</button>
@@ -29,7 +26,7 @@ class Login extends Component {
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Registrate</button>
     </Link>
 
-    <Link to="/Registro" className="text-decoration-none">
+    <Link to="/Administrador" className="text-decoration-none">
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Soy administrador/a</button>
     </Link>
     <p className="mt-5 mb-3 text-muted">© 2020</p>

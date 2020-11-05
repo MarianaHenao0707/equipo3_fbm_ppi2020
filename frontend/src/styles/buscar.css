@@ -1,31 +1,17 @@
 .Buscar h1{
+    font-family: serif;
     color: #007bff;
     text-align: center;
     padding: 70px 200px 50px 200px  ;
-
 }
 
-.Buscar h3{
-    color: black;
-    text-align: center;
-    padding: 70px 200px 50px 200px  ;
+.Buscar input[type="submit"]{
+    margin: 20px 70px 0px 510px;
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    background: #007bff; 
+    font-family: cursive ;
 }
-.form-control1{
-    text-align: center;
-    justify-content: center;
-    width: 1000px, center;
-    
-    
-}.btn{
-    text-align: center;
-    justify-content: center;
-    padding: -1px 200px 0px 200px  ;
-    
-}
-.parrafo img{
-    width: 500px;
-    height: 400px;
-    margin-left: 70px;
-    margin-top: 0px;
-    display: flex;
-}
+
+

@@ -3,7 +3,6 @@
     text-align: center;
 }
 .comentario {
-    
     margin: 0px 497px 0px 497px;
     flex-wrap: wrap;
 }
@@ -28,6 +27,7 @@
 }
 .sugerir h3{
     text-align: center;
+    font-family: serif;
 }
 
 h1{
