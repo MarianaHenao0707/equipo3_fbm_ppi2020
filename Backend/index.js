@@ -1,14 +1,16 @@
 const express= require('express');
 const app = express();
 
+
 // definir todos los componentes, modulos app
-const routes= require('./routes/routes');// crud
-const routes= require('./routes/inicioadmi');
+
+const usuarios= require('./routes/usuarios');/*
+const routes= require('./routes/inicioadmi'); /
 const routes= require('./routes/iniciousuario');
 const routes= require('./routes/puntaje');
 const routes= require('./routes/quejas');
 const routes= require('./routes/registroadmi');
-const routes= require('./routes/registrousuario');
+const routes= require('./routes/registrousuario');*/
 
 
 
@@ -22,13 +24,15 @@ app.use(express.json());
 
 
 // ajustess
-app.use('/api',routes);
+app.use('/api',usuarios);
+/*
+
 app.use('/api',inicioadmi);
 app.use('/api',iniciousuario);
 app.use('/api',puntaje);
 app.use('/api',quejas);
 app.use('/api',registroadmi);
-app.use('/api',registrousuario);
+app.use('/api',registrousuario);*/
 
 
 
