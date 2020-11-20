@@ -1,5 +1,5 @@
 import React from 'react';
-import  '../styles/Buscar.css';
+import "../styles/buscar.css"
 
 
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Logo from '../images/registro.png';
-import '../styles/registro.css';
+import '../styles/Registro.css';
 import { Link } from 'react-router-dom';
 
 
