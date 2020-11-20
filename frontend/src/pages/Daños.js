@@ -1,8 +1,5 @@
 import React from 'react';
-import Daños from '../styles/Daños.css';
-import Pricing from '../components/Pricing';
-import Cardpricing from '../components/CardPricing';
-
+import '../styles/Daños.css';
 
 function daños () {
     return(

@@ -1,7 +1,5 @@
 import React from 'react';
-import Pricing from '../components/Pricing';
-import Cardpricing from '../components/CardPricing';
-import bloquear from '../styles/Bloquear.css';
+import '../styles/Bloquear.css';
 import usuarios from '../images/usuarios.png';
 
 

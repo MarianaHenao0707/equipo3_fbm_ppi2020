@@ -1,7 +1,5 @@
 import React from 'react';
-import Pricing from '../components/Pricing';
-import CardPricing from '../components/CardPricing'; 
-import Fallas from '../styles/Quienesom.css';
+import '../styles/Quienesom.css';
 import Mari from '../images/Mariana.jpg';
 import Dani from '../images/Daniela.jpg';
 import Manu from '../images/Manuela.jpg';

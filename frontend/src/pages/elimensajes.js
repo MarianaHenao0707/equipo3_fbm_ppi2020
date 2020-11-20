@@ -1,7 +1,5 @@
 import React from 'react';
-import Eliminar from '../styles/elimensajes.css';
-import Pricing from '../components/Pricing';
-import Cardpricing from '../components/CardPricing';
+import  '../styles/elimensajes.css';
 
 
 function elimensajes () {

@@ -1,9 +1,5 @@
 import React from 'react';
-import Pricing from '../components/Pricing';
-import CardPricing from '../components/CardPricing';
-import notas from '../styles/notas.css';
-import Logo from '../images/impag.png';
-
+import '../styles/notas.css';
 
 function Notas () {
   return (

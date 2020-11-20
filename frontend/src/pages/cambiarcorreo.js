@@ -1,6 +1,4 @@
 import React from 'react';
-import Pricing from '../components/Pricing';
-import Cardpricing from '../components/CardPricing';
 import  '../styles/cambiarcorreo.css';
 import Gasinfo from '../images/Gasinfo.jpg';
 import luzinfo from'../images/luzinfo.jpg';
