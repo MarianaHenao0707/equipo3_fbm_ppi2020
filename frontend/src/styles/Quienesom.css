@@ -15,8 +15,10 @@
     text-align: center;
 }
 .Quienesomos {
-    font-family: cursive;
+    color: #000000;
     text-align: center;
+    padding: -50px 200px 50px 200px  ;
+   
 }
 .Quienesomos h3{
     color: black;
@@ -24,7 +26,7 @@
     width: 0px;
     height: -20px;
     margin-left: -0px;
-    margin-top: 100px;
+    margin-top: 10px;
     padding:  90px 190px 80px -0px  ; 
     display: table-column;
 }
@@ -33,19 +35,19 @@
     width: 0px;
     height: -20px;
     margin-left: -0px;
-    margin-top: 100px;
+    margin-top: 10px;
     padding: 90px 190px 80px -0px  ; 
     display: table-column;
 }
 .Quienesomos img{
     width: 330px;
-    height: 420px;
+    height: 320px;
     padding: 10px 20px 1px -0px  ; 
     display: table-column;
 }   
 .Quienesomos img{
     
-        margin: 28px -9px 200px 10px;
+        margin: -50px -5px 50px 50px;
     }
     
 

@@ -10,7 +10,7 @@ class Footer extends Component {
             <footer className="pt-4 my-md-5 pt-md-5 border-top">
             <div className="row">
               <div className="col-12 col-md">
-                <img className="mb-2" src={Logo} alt="" width="60" height="60"/>
+                <img className="mb-2" src={Logo} alt="Responsive image" width="60" height="60"/>
                 <small className="d-block mb-3 text-muted">© 2020</small>
               </div>
               <div className="col-6 col-md">

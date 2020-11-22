@@ -1,7 +1,10 @@
 import React from 'react';
 import  '../styles/informate.css';
-import Gasinfo from '../images/Gasinfo.jpg';
-import luzinfo from'../images/luzinfo.jpg';
+import menu from '../images/menu.png';
+import quejas from '../images/quejas.png';
+import informacion from '../images/informacion.png';
+import quienesom from '../images/quienesom.png';
+import preguntase from '../images/preguntase.png';
 
 
 
@@ -9,17 +12,37 @@ function Informate (){
     return (
         <div>
      <section className="informa">
-          <h1>Informate</h1>
+          <h1>Ayuda</h1>
         </section>
-    <section className="parrafo1">
-        <p>Esta es una plataforma que por medio de un comunicado, permite mantener informados a los 
-            ciudadanos de la zona noroccidental de medellin sobre el estado de sus servicios públicos, los usuarios podran informar las 
-            dificultades que presentan los servicios públicos en la zona en que te encuentras.</p>
+    
+        <section className="img">
+           <img className="img" src={menu} alt="Responsive image"/> 
+           <h3>                                                          
+           <p>Menú</p>                
+           </h3>
+
+           <img className="img"  src={quejas} alt="Responsive image"/>
+           <h4>
+           <p>Quejas</p>
+           </h4>
            </section>
 
            <section className="img">
-           <img className="img"   src={Gasinfo}/>   
-           <img className="img"  src={luzinfo}/>
+           <img className="img"   src={informacion} alt="Responsive image"/> 
+           <h3>                                                         
+           <p>Información</p>                
+           </h3>
+
+           <img className="img3"  src={quienesom} alt="Responsive image"/>
+           <h4>
+           <p>Quiénes somos</p>
+           </h4>
+
+           <img className="img4"  src={preguntase} alt="Responsive image"/>
+           <h4>
+           <p>Preguntas evaluativas</p>
+           </h4>
+
            </section>
            <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
     </div>

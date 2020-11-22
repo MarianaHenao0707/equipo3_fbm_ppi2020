@@ -18,7 +18,7 @@ function Sugerencias (){
 
           <from className="comentario">
               <input type="text" placeholder="" />
-              <input type="submit"value="Enviar"/>
+         
           </from>
           <h3>¿Qué deseas reportar?</h3>
 

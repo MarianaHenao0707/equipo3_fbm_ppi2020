@@ -10,11 +10,11 @@ function Bloquear () {
         <div>
          <section className="Bloquear">
           <h1>Eliminar usuarios</h1>
-          <img className="img"   src={usuarios}/> 
+          <img className="img"   src={usuarios} alt="Responsive image"/> 
         </section>
         <section className="cont2">
           <h1>Bloquear usuarios</h1>
-          <img className="img"   src={usuarios}/> 
+          <img className="img"   src={usuarios} alt="Responsive image"/> 
           <button type="button" className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" >Cancelar</button>
           <button type="button" className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2">Confirmar</button>
        

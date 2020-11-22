@@ -20,7 +20,7 @@ class CardImages extends Component {
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={Buscar} alt="" width="150" height="150"/>
+          <img className="mb-4" src={Buscar} alt="Responsive image" width="150" height="150"/>
          
             <div className="card-body">
               
@@ -36,7 +36,7 @@ class CardImages extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={sugerencias} alt="" width="150" height="150"/>
+          <img className="mb-4" src={sugerencias} alt="Responsive image" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -51,7 +51,7 @@ class CardImages extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={informate} alt="" width="150" height="150"/>
+          <img className="mb-4" src={informate} alt="Responsive image" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -67,7 +67,7 @@ class CardImages extends Component {
 
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={fallas} alt="" width="150" height="150"/>
+          <img className="mb-4" src={fallas} alt="Responsive image" width="150" height="150"/>
             <div className="card-body">
               
               <div className="d-flex justify-content-between align-items-center">
@@ -81,7 +81,7 @@ class CardImages extends Component {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={notas} alt="" width="150" height="150"/>
+          <img className="mb-4" src={notas} alt="Responsive image" width="150" height="150"/>
             
             <div className="card-body">
               
@@ -102,7 +102,7 @@ class CardImages extends Component {
         
       </div>
     </div>
-    <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
+   
   </div>
          );
     }

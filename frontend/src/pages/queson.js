@@ -1,8 +1,5 @@
 import React from 'react';
 import  '../styles/informate.css';
-import Gasinfo from '../images/Gasinfo.jpg';
-import luzinfo from'../images/luzinfo.jpg';
-
 
 
 function Informate (){
@@ -17,12 +14,12 @@ function Informate (){
             dificultades que presentan los servicios públicos en la zona en que te encuentras.</p>
            </section>
 
-           <section className="img">
-           <img className="img"   src={Gasinfo}/>   
-           <img className="img"  src={luzinfo}/>
-           </section>
+         //ACÁ VA IMAGEN//
+
            <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
+
     </div>
+
       
     );
     
