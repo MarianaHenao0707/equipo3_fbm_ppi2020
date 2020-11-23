@@ -12,9 +12,11 @@ import Sugerencias from '../pages/Sugerencias';
 import Notas from '../pages/Notas';
 import Administrador from '../pages/Administrador';
 import menuadmin from '../pages/menuadmin';
-import Daños from '../pages/Daños';
 import Bloquear from '../pages/Bloquear';
 import elimensajes from '../pages/elimensajes';
+import Definicion from '../pages/Definicion';
+import Clasificacion from '../pages/Clasificacion';
+import Tipos from '../pages/Tipos';
 
 
 
@@ -27,6 +29,10 @@ const App = () =>{
         <Route exact path="/iniciosesion" component={Register} />
         <Route exact path="/Registro" component={Registro} />
         <Route exact path="/Administrador" component={Administrador} />
+        <Route exact path="/Definicion" component={Definicion} />
+        <Route exact path="/Clasificacion" component={Clasificacion} />
+        <Route exact path="/Tipos" component={Tipos} />
+
 
         
         <Layout>
@@ -49,15 +55,15 @@ const App = () =>{
           <Route path="/Buscar">
           <Buscar/>  
         </Route>
-        <Route path="/Buscar">
+        <Route path="/Buscar1">
           <Buscar/>  
         </Route>
-        <Route path="/Buscar">
+        <Route path="/Buscar2">
           <Buscar/>  
         </Route>
-        <Route path="/Buscar">
+        <Route path="/Buscar3">
           <Buscar/>  
-          <Route path="/Buscar">
+        <Route path="/Buscar4">
           <Buscar/>  
         </Route>
 
@@ -73,6 +79,15 @@ const App = () =>{
           <Route path="/Notas">
           <Buscar/>  
         </Route>
+        <Route path="/Definicion">
+          <Definicion/>  
+        </Route>
+        <Route path="/Clasificacion">
+          <Clasificacion/>  
+        </Route>
+        <Route path="/Tipos">
+          <Tipos/>  
+        </Route>
 
         </Route>
         </Route>
@@ -86,9 +101,9 @@ const App = () =>{
         <Route path="/volver" component={elimensajes} />
 
         <Route path="/Bloquear" component={Bloquear} />
-        <Route path="/Daños" component={Daños} />
         <Route path="/elimensajes" component={elimensajes} />
         <Route path="/menuadmin" component={menuadmin} />
+        <Route path="/Definicion" component={Definicion} />
 
         
         

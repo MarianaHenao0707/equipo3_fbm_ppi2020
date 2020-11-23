@@ -1,5 +1,6 @@
 import React from 'react';
 import  '../styles/elimensajes.css';
+import { Link } from 'react-router-dom';
 
 
 function elimensajes () {
@@ -46,7 +47,7 @@ function elimensajes () {
            </div>
            </div>
           </section>
-          <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
+<button ><Link to="/menuadmin">volver</Link></button>
     </div>
     );
 }

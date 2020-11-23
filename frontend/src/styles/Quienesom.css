@@ -24,10 +24,10 @@
     color: black;
     text-align: right;
     width: 0px;
-    height: -20px;
+    height: -100px;
     margin-left: -0px;
-    margin-top: 10px;
-    padding:  90px 190px 80px -0px  ; 
+    margin-top: 5px;
+    padding:  9px 190px 90px -0px  ; 
     display: table-column;
 }
 .Quienesomos h4{
@@ -36,13 +36,13 @@
     height: -20px;
     margin-left: -0px;
     margin-top: 10px;
-    padding: 90px 190px 80px -0px  ; 
+    padding: 9px 190px 80px -0px  ; 
     display: table-column;
 }
 .Quienesomos img{
-    width: 330px;
-    height: 320px;
-    padding: 10px 20px 1px -0px  ; 
+    width: 300px;
+    height: 290px;
+    padding: 1px 20px 1px -0px  ; 
     display: table-column;
 }   
 .Quienesomos img{

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/notas.css';
+import { Link } from 'react-router-dom';
+
 
 function Notas () {
   return (
@@ -31,7 +33,8 @@ function Notas () {
           <input type="submit"value="D) Gasas, algodones, residuos tóxicos"/>
           </from>
         </section>
-        <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
+
+<button ><Link to="/Principal">volver</Link></button>
     </div>
   );
 }

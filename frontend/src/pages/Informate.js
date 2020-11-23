@@ -5,6 +5,7 @@ import quejas from '../images/quejas.png';
 import informacion from '../images/informacion.png';
 import quienesom from '../images/quienesom.png';
 import preguntase from '../images/preguntase.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -16,35 +17,36 @@ function Informate (){
         </section>
     
         <section className="img">
-           <img className="img" src={menu} alt="Responsive image"/> 
+           <img className="img1" src={menu} alt="Responsive image"/> 
            <h3>                                                          
            <p>Menú</p>                
            </h3>
 
-           <img className="img"  src={quejas} alt="Responsive image"/>
+           <img className="img2"  src={quejas} alt="Responsive image"/>
            <h4>
            <p>Quejas</p>
            </h4>
            </section>
 
            <section className="img">
-           <img className="img"   src={informacion} alt="Responsive image"/> 
+           <img className="img3"   src={informacion} alt="Responsive image"/> 
            <h3>                                                         
            <p>Información</p>                
            </h3>
 
-           <img className="img3"  src={quienesom} alt="Responsive image"/>
+           <img className="img4"  src={quienesom} alt="Responsive image"/>
            <h4>
            <p>Quiénes somos</p>
            </h4>
 
-           <img className="img4"  src={preguntase} alt="Responsive image"/>
+           <img className="img5"  src={preguntase} alt="Responsive image"/>
            <h4>
            <p>Preguntas evaluativas</p>
            </h4>
 
            </section>
-           <a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
+ 
+<button ><Link to="/Principal">volver</Link></button>
     </div>
       
     );

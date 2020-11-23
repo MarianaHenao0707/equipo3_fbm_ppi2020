@@ -4,6 +4,7 @@ import Mari from '../images/Mariana.jpg';
 import Dani from '../images/Daniela.jpg';
 import Manu from '../images/Manuela.jpg';
 import Cami from '../images/Camilo.jpg';
+import { Link } from 'react-router-dom';
 
    
 
@@ -53,9 +54,7 @@ function Quienesomos (proops) {
            </h4>
            </section>
 
-
-
-<a className="btn btn-outline-primary my 2 my-sm-0 form-control1 m-2" type="submit" href="javascript:history.back()">Volver</a>
+<button ><Link to="/Principal">volver</Link></button>
               </div>
                                 </section>
           </section>
