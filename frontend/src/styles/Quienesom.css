@@ -2,7 +2,7 @@
     font-family: serif;
     color: #007bff;
     text-align: center;
-    padding: 10px;
+    padding: 10ppx;
 }
 .Quienesomos h2{
     font-family: cursive;
@@ -27,7 +27,7 @@
     height: -100px;
     margin-left: -0px;
     margin-top: 5px;
-    padding:  9px 190px 90px -0px  ; 
+    padding:  9px 220px 210px -0px  ; 
     display: table-column;
 }
 .Quienesomos h4{
@@ -41,13 +41,13 @@
 }
 .Quienesomos img{
     width: 300px;
-    height: 290px;
-    padding: 1px 20px 1px -0px  ; 
+    height: 420px;
+    padding: 100px -10px -0px -0px  ; 
     display: table-column;
 }   
 .Quienesomos img{
     
-        margin: -50px -5px 50px 50px;
+        margin: -20px -5px 490px -05px;
     }
     
 

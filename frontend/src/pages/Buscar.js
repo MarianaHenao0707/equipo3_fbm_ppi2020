@@ -17,10 +17,9 @@ function Buscar (){
             </section>
 
           </section>
-
-          <from className="Buscar1">
-          <button ><Link to="/Definicion">Definicion</Link></button>
-          </from>
+         
+          <button1 ><Link to="/Definicion">Definicion</Link></button1>
+          
 
           <from className="Buscar2">
           <button ><Link to="/Clasificacion">Clasificación de los residuos</Link></button>

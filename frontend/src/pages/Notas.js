@@ -19,6 +19,7 @@ function Notas () {
 
           <from className="Notas">
           <input type="submit"value="A) Carbón, mantequilla, icopor, chicles "/>
+          <h3><Link to="/Principal">volver</Link></h3>
           </from>
 
           <from className="Notas">
