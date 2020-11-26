@@ -1,41 +1,21 @@
-const express= require('express');
-const app = express();
+var jsonServer = require('json-server');
+var db = require('./db.js');
+var fs = require('fs');
 
+var server = jsonServer.create();
 
-// definir todos los componentes, modulos app
+// important to do this for now.sh to work
+// https://spectrum.chat/zeit/general/how-do-i-upload-a-file-to-the-tmp-directory~a1548ae0-91b1-42f5-9388-c79673ba09e4
+fs.writeFileSync('/tmp/db.json', JSON.stringify(db()));
 
-const usuarios= require('./routes/usuarios');/*
-const routes= require('./routes/inicioadmi'); /
-const routes= require('./routes/iniciousuario');
-const routes= require('./routes/puntaje');
-const routes= require('./routes/quejas');
-const routes= require('./routes/registroadmi');
-const routes= require('./routes/registrousuario');*/
+// important to have /tmp here otherwise now.sh won't write to file
+// https://stackoverflow.com/questions/43389724/lambda-function-error-erofs-read-only-file-system-open-tmp-test-zip-proc
+var router = jsonServer.router('/tmp/db.json');
+var middlewares = jsonServer.defaults();
+var port = process.env.PORT || 5000;
 
-
-
-//ajustes
-app.set('port',3000)
-
-
-
-// Middleware
-app.use(express.json());
-
-
-// ajustess
-app.use('/api',usuarios);
-/*
-
-app.use('/api',inicioadmi);
-app.use('/api',iniciousuario);
-app.use('/api',puntaje);
-app.use('/api',quejas);
-app.use('/api',registroadmi);
-app.use('/api',registrousuario);*/
-
-
-
-app.listen(app.get('port'),()=>{
-    console.log(`Servidor corriendo en puerto  ${app.get('port')}`)
-})
+server.use(middlewares);
+server.use(router);
+server.listen(port, function() {
+  console.log('JSON Server is running on http://localhost:' + port);
+});
