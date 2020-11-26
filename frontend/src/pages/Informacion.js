@@ -43,6 +43,10 @@ function Informacion () {
     <Link to="/Separacion" className="text-decoration-none">
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Manera correcta de separar residuos</button>
     </Link>
+
+    <Link to="/Avisos" className="text-decoration-none">
+    <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Avisos</button>
+    </Link>
   
         </section>
 

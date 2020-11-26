@@ -1,26 +1,31 @@
 .Definicion h1{
-    font-family: serif;
+    font-family: cursive;
     color: #007bff;
     text-align: center;
-    padding: 70px 200px 50px 200px  ;
+    padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
 }
 
 .Definicion h2{
-    font-family: serif;
-    color: black;
+    font-family: cursive;
+    color: green;
     text-align: center;
+    padding: 70px 200px 50px 200px  ;
+    font-size: xx-large;
 }
 
 .Definicion h3{
-    font-family: serif;
+    font-family: Cursive;
     color: black;
     text-align: center;
+      font-size: xx-large;
 }
 
 .Definicion h4{
-    font-family: serif;
+    font-family: cursive;
     color: black;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Definicion input[type="submit"]{
@@ -32,15 +37,14 @@
     font-family: cursive ;
 }
 
-.img{
-    width: 280px;
-    height: 320px;
-    margin-left: 5px;
-    margin-top: 5px;
-    padding: 5px 5px 5px -0px  ; 
-    display: flex;
-}
+.Definicion img{
+    width: 300px;
+    height: 420px;
+    padding: 100px -10px -0px -0px  ; 
+    display: table-column;
+}   
+.Definicion img{
+    
+        margin: -100px -5px 490px 190px;
+    }
 
-.img{
-    margin: 40px 0px 180px 290px;
-}

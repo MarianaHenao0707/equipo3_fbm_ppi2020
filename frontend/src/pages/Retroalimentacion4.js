@@ -7,22 +7,22 @@ import Feliz from '../images/planetafeliz.png';
 
 
 
-function Correcta1 () {
+function Retroalimentacion4 () {
     return (
         
           <section className="Definicion">
-          <h1>¡RESPUESTA CORRECTA!</h1>
+          <h1>¡TU PUNTAJE ES ALTO!🤩🤩🤩</h1>
         
 
               <section className="seccion-uno">
               <div className="table-uno">
-            <h2 className="til">Tienes 5 puntos</h2>
-            <h3>Has respondido correctamente, sigue así, aprendiéndo más sobre los residuos con nosotros. </h3>
-            <section className="img">
+<h2 className="til">¡NO FALLASTE EN LA RESPUESTA!</h2>
+<h3>Has respondido perfectamente,¡¡FELICIDADES!!</h3>
+ <section className="img">
            <img className="img" src={Feliz} alt="Responsive image"/> 
            </section>
                   <button ><Link to="/Principal">Volver</Link></button>
-                  <button ><Link to="/Correcta2">Siguiente</Link></button>
+                  <button ><Link to="/Error1">Siguiente</Link></button>
                   </div>
         </section>
         </section>
@@ -30,4 +30,4 @@ function Correcta1 () {
              );
     
             }
-export default Correcta1;
+export default Retroalimentacion4 ;

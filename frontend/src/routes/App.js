@@ -8,13 +8,10 @@ import Registro from '../components/Registro';
 import Quienesomos from '../pages/Quienesomos';
 import Informate from '../pages/Informate';
 import Sugerencias from '../pages/Sugerencias';
-import Preguntaco2 from '../pages/Preguntaco2';
-import Preguntain2 from '../pages/Preguntain2';
-import Incorrecta1 from '../pages/Incorrecta1';
-import Correcta1 from '../pages/Correcta1';
 import Preguntase1 from '../pages/Preguntase1';
 import Administrador from '../pages/Administrador';
 import menuadmin from '../pages/menuadmin';
+import Avisos from '../pages/Avisos';
 import elimensajes from '../pages/elimensajes';
 import Definicion from '../pages/Definicion';
 import Clasificacion from '../pages/Clasificacion';
@@ -26,7 +23,18 @@ import Manejo from '../pages/Manejo';
 import Separacion from '../pages/Separacion';
 import Envioquejas from '../pages/Envioquejas';
 import Ayuda from '../pages/Ayuda';
+import Eliminado from '../pages/Eliminado';
+import Eliminado2 from '../pages/Eliminado2';
 import Quienesadmin from '../pages/Quienesadmin';
+import Pregunta1 from '../pages/Pregunta1';
+import Error1 from '../pages/Error1';
+import Retroalimentacion1 from '../pages/Retroalimentacion1';
+import Retroalimentacion2 from '../pages/Retroalimentacion2';
+import Retroalimentacion3 from '../pages/Retroalimentacion3';
+import Retroalimentacion4 from '../pages/Retroalimentacion4';
+import Retroalimentacion5 from '../pages/Retroalimentacion5';
+import Retroalimentacion6 from '../pages/Retroalimentacion6';
+
 
 
 
@@ -50,6 +58,11 @@ const App = () =>{
         <Route exact path="/Envioquejas" component={Envioquejas} />
         <Route exact path="/Ayuda" component={Ayuda} />
         <Route exact path="/Quienesadmin" component={Quienesadmin} />
+        <Route exact path="/Pregunta1" component={Pregunta1} />
+        <Route exact path="/Error1" component={Error1} />
+        <Route exact path="/Avisos" component={Avisos} />
+       
+
 
 
         
@@ -68,20 +81,31 @@ const App = () =>{
         <Route path="/Preguntase1">
           <Preguntase1/>
           </Route>
-          <Route path="/Incorrecta1">
-          <Incorrecta1/>
+          <Route path="/Pregunta1">
+          <Pregunta1/>
           </Route>
-          <Route path="/Correcta1">
-          <Correcta1/>
+          <Route path="/Error1">
+          <Error1/>
           </Route>
-        
-          <Route path="/Preguntaco2">
-          <Preguntaco2/>
+          <Route path="/Retroalimentacion1">
+          <Retroalimentacion1/>
           </Route>
-          <Route path="/Preguntain2">
-          <Preguntain2/>
+          <Route path="/Retroalimentacion2">
+          <Retroalimentacion2/>
           </Route>
-
+          <Route path="/Retroalimentacion3">
+          <Retroalimentacion3/>
+          </Route>
+          <Route path="/Retroalimentacion4">
+          <Retroalimentacion4/>
+          </Route>
+          <Route path="/Retroalimentacion5">
+          <Retroalimentacion5/>
+          </Route>
+          <Route path="/Retroalimentacion6">
+          <Retroalimentacion6/>
+          </Route>
+   
         <Route path="/Definicion">
           <Definicion/>  
         </Route>
@@ -106,11 +130,15 @@ const App = () =>{
         <Route path="/Quienesadmin">
           <Quienesadmin/>  
         </Route>
-        
-
-       
-        
-        
+        <Route path="/Avisos">
+          <Avisos/>  
+        </Route>
+        <Route path="/Eliminado">
+          <Eliminado/>  
+        </Route>
+        <Route path="/Eliminado2">
+          <Eliminado2/>  
+        </Route>
        
         <Route path="/botonSugerencias" component={Sugerencias} />
         <Route path="/botonBuscar" component={Informacion} />

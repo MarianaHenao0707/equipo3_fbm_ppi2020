@@ -1,0 +1,136 @@
+.Consecuencias h1{
+    font-family: cursive;
+    color: #007bff;
+    text-align: center;
+    padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
+}
+
+.Consecuencias h2{
+    font-family: cursive;
+    color: green;
+    text-align: center;
+    padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
+}
+
+.Consecuencias h3{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h4{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h5{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h6{
+    font-family:cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h7{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h8{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h9{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h10{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+.Consecuencias h11{
+    font-family: cursive;
+    color:black;
+    text-align: center;
+    font-size: xx-large;
+}
+.Consecuencias h12{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h13{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+.Consecuencias h14{
+    font-family: cursive;
+    color:black;
+    text-align: center;
+    font-size: xx-large;
+}
+.Consecuencias h15{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias h16{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+.Consecuencias h17{
+    font-family: cursive;
+    color:black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Consecuencias input[type="submit"]{
+    margin: 20px 70px 0px 510px;
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    background: #007bff; 
+    font-family: cursive ;
+}
+.Consecuencias img{
+    width: 380px;
+    height: 320px;
+    margin-left: 520px;
+    margin-top: 5px;
+    padding: 7px 7px 7px -0px  ; 
+    display: flex;
+}
+
+.Consecuencias img{
+    margin: 180px -54x 180px 890px;
+}

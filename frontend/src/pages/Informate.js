@@ -45,8 +45,7 @@ function Informate (){
            </h4>
 
            </section>
- 
-<button ><Link to="/Principal">volver</Link></button>
+           <button ><Link to="/Principal">volver</Link></button>
     </div>
       
     );

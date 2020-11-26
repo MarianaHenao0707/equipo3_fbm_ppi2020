@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import  '../styles/Consecuencias.css';
-import Queson from '../images/queson.jpg';
+import Consecu from '../images/Consecu.jpg';
 
 
 
@@ -107,7 +107,7 @@ despilfarro de posibles materias primas no utilizadas; pérdida de valor económ
 
 
  <section className="img">
-           <img className="img" src={Queson} alt="Responsive image"/> 
+           <img className="img" src={Consecu} alt="Responsive image"/> 
            </section>
                   <button ><Link to="/Informacion">volver</Link></button>
                   </div>

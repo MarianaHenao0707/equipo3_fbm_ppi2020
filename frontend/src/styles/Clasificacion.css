@@ -2,66 +2,78 @@
     font-family: cursive;
     color: #007bff;
     text-align: center;
-    padding: 70px 200px 50px 200px  ;
+    padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
 }
 
 .Clasificacion h2{
-    font-family: serif;
-    color: black;
+    font-family: cursive;
+    color: green;
     text-align: center;
+    padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
 }
 
 .Clasificacion h3{
-    font-family: serif;
+    font-family: cursive;
     color: black;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Clasificacion h4{
-    font-family: serif;
-    color: black;
+    font-family: cursive;
+    color: green;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Clasificacion h5{
-    font-family: serif;
-    color: black;
+    font-family: cursive;
+    color: green;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Clasificacion h6{
-    font-family: serif;
+    font-family:cursive;
     color: black;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Clasificacion h7{
-    font-family: serif;
+    font-family: cursive;
     color: black;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Clasificacion h8{
-    font-family: serif;
+    font-family: cursive;
     color: black;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Clasificacion h9{
-    font-family: serif;
-    color: black;
+    font-family: cursive;
+    color: green;
     text-align: center;
+    font-size: xx-large;
 }
 
 .Clasificacion h10{
-    font-family: serif;
-    color: black;
+    font-family: cursive;
+    color: green;
     text-align: center;
+    font-size: xx-large;
 }
 .Clasificacion h11{
-    font-family: serif;
-    color: black;
+    font-family: cursive;
+    color:green;
     text-align: center;
+    font-size: xx-large;
 
 }
 .Clasificacion input[type="submit"]{
@@ -72,15 +84,15 @@
     background: #007bff; 
     font-family: cursive ;
 }
-.img{
+.Clasificacion img{
     width: 380px;
     height: 320px;
-    margin-left: 5px;
+    margin-left: 520px;
     margin-top: 5px;
     padding: 7px 7px 7px -0px  ; 
     display: flex;
 }
 
-.img{
-    margin: 180px 0px 180px 290px;
+.Clasificacion img{
+    margin: 180px -54x 180px 890px;
 }
