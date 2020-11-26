@@ -1,34 +1,36 @@
-.Definicion h1{
+.Avisos h2{
     font-family: cursive;
     color: #007bff;
-    text-align: center;
-    padding: 70px 200px 12px 200px  ;
-    font-size: xx-large;
-}
-
-.Definicion h2{
-    font-family: cursive;
-    color: green;
     text-align: center;
     padding: 70px 200px 50px 200px  ;
     font-size: xx-large;
 }
 
-.Definicion h3{
+
+
+.Avisos h3{
     font-family: Cursive;
     color: black;
     text-align: center;
       font-size: xx-large;
 }
+.Avisos h4{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+} 
 
-.Definicion h4{
+
+.Avisos h5{
     font-family: cursive;
     color: black;
     text-align: center;
     font-size: xx-large;
 }
 
-.Definicion input[type="submit"]{
+
+.Avisos input[type="submit"]{
     margin: 20px 70px 0px 510px;
     width: 330px;
     height: 60px;
@@ -37,7 +39,7 @@
     font-family: cursive ;
 }
 
-.Definicion img{
+.Avisos img{
     width: 300px;
     height: 420px;
     padding: 100px -10px -0px -0px  ; 

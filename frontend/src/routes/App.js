@@ -6,7 +6,6 @@ import Principal from '../pages/Principal';
 import Layout from '../components/Layout';
 import Registro from '../components/Registro';
 import Quienesomos from '../pages/Quienesomos';
-import Informate from '../pages/Informate';
 import Sugerencias from '../pages/Sugerencias';
 import Preguntase1 from '../pages/Preguntase1';
 import Administrador from '../pages/Administrador';
@@ -71,9 +70,6 @@ const App = () =>{
          <Route path="/principal" component={Principal} />
         <Route path="/quienesomos">
           <Quienesomos/>
-        </Route>
-        <Route path="/informate">
-          <Informate/>
         </Route>
         <Route path="/sugerencias">
           <Sugerencias/>  
@@ -142,7 +138,6 @@ const App = () =>{
        
         <Route path="/botonSugerencias" component={Sugerencias} />
         <Route path="/botonBuscar" component={Informacion} />
-        <Route path="/botonInformate" component={Informate} />
         <Route path="/botonQuienesomos" component={Quienesomos} />
         <Route path="/botonnotas" component={Preguntase1} />
         <Route path="/botonAdministrador" component={Administrador} />

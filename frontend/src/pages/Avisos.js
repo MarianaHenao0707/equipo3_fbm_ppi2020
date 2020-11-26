@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import  '../styles/Definicion.css';
-import Queson from '../images/queson.jpg';
+import  '../styles/Avisos.css';
+import avss from '../images/avss.jpg';
 
 
 
@@ -18,10 +18,10 @@ function Avisos () {
               <div className="table-uno">
 <h2 className="til">¡RECUERDA QUE DEBES SACAR LA BASURA!</h2>
 <h3>Los Martes y Viernes</h3>
-<h4>A partir de las 3pm</h4>
-<h5>En la esquina de la cancha de Tejelo</h5>
+<h4>A partir de las 3pm. En la esquina de la cancha de Tejelo</h4>
+
  <section className="img">
-           <img className="img" src={Queson} alt="Responsive image"/> 
+           <img className="img" src={avss} alt="Responsive image"/> 
            </section>
                   <button ><Link to="/Informacion">volver</Link></button>
                   </div>

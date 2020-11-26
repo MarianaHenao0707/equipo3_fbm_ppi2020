@@ -1,0 +1,85 @@
+.Manejo h1{
+    font-family: cursive;
+    color: #007bff;
+    text-align: center;
+    padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
+}
+
+.Manejo h2{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    padding: 70px 200px 50px 200px  ;
+    font-size: xx-large;
+}
+
+.Manejo h3{
+    font-family: Cursive;
+    color: black;
+    text-align: center;
+      font-size: xx-large;
+}
+
+.Manejo h4{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+.Manejo h11{
+    font-family: Cursive;
+    color: green;
+    text-align: center;
+      font-size: xx-large;
+}
+
+.Manejo h12{
+    font-family: cursive;
+    color: green;
+    text-align: center;
+    font-size: xx-large;
+}
+.Manejo h7{
+    font-family: Cursive;
+    color: green;
+    text-align: center;
+      font-size: xx-large;
+}
+
+.Manejo h8{
+    font-family: cursive;
+    color: green;
+    text-align: center;
+    font-size: xx-large;
+}
+.Manejo h9{
+    font-family: Cursive;
+    color: green;
+    text-align: center;
+      font-size: xx-large;
+}
+
+.Manejo h10{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Manejo input[type="submit"]{
+    margin: 20px 70px 0px 510px;
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    background: #007bff; 
+    font-family: cursive ;
+}
+
+.Manejo img{
+    width: 500px;
+    height: 480px;
+    padding: 100px -10px -0px -0px  ; 
+    display: table-column;
+    margin:  5px 430px 190px;
+}   

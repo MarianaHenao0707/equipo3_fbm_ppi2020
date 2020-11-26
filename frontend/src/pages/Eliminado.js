@@ -23,8 +23,7 @@ function Eliminado2 () {
               </thead>
               <tbody>
             <tr>
-                <td>Una señora flaca de la esquina de mi casa saca la basura los días que no son, los animales y motos/carros quen pasan por allí la riegan. La dirección es: cll19a#34-31b.</td>
-              <button ><Link to="/Eliminado">Eliminar</Link></button>
+                <td>No hay quejas aún</td>
               </tr>
              
              

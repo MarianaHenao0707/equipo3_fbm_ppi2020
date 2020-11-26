@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import  '../styles/Manejo.css';
-import Queson from '../images/queson.jpg';
+import manejo from '../images/manejj.jpg';
 
 
 
@@ -14,16 +14,18 @@ function Manejo () {
 
               <section className="seccion-uno">
               <div className="table-uno">
-<h2>El manejo y tratamiento de residuos inicia con la recolección de los mismos, posteriormente su transporte hasta las instalaciones 
-    preparadas su manejo, y finalmente su tratamiento intermedio o definitivo.</h2>
-<h3>Este tratamiento de residuos puede ser el para su aprovechamiento o para su eliminación final.
-En los últimos años se ha incrementado el interés para que esta actividad genere el menor riesgo para la salud y el medio ambiente.</h3>
+<h2>El manejo y tratamiento de residuos inicia con la recolección de los mismos, posteriormente su transporte hasta las instalaciones preparadas su manejo, y finalmente su tratamiento intermedio o definitivo.</h2>
+<h3>Este tratamiento de residuos puede ser el para su aprovechamiento o para su eliminación final. En los últimos años se ha incrementado el interés para que esta actividad genere el menor riesgo para la salud y el medio ambiente.</h3>
 <h4>Beneficios que hay al separar la basura:</h4>
-<h5>1. Ayuda a evitar la contaminación de tierras, ríos y aire.</h5>
-<h6>2. Permite la renovación de la tierra.</h6>
 </div>
 
         <div className="table-uno">
+<h11>1. Ayuda a evitar la contaminación de tierras, ríos y aire.</h11>
+<div/>
+
+<div className="table-uno">
+<h12>2. Permite la renovación de la tierra.</h12>
+</div>
 
 <h7>3. Disminuye el riesgo de muerte en los animales.</h7>
 </div>
@@ -45,7 +47,7 @@ En los últimos años se ha incrementado el interés para que esta actividad gen
 
 
  <section className="img">
-           <img className="img" src={Queson} alt="Responsive image"/> 
+           <img className="img" src={manejo} alt="Responsive image"/> 
            </section>
                   <button ><Link to="/Informacion">volver</Link></button>
                   </div>

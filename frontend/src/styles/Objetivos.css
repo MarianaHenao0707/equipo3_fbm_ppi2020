@@ -1,0 +1,47 @@
+.Objetivos h1{
+    font-family: cursive;
+    color: #007bff;
+    text-align: center;
+    padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
+}
+
+.Objetivos h2{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+     padding: 70px 200px 12px 200px  ;
+    font-size: xx-large;
+}
+
+.Objetivos h3{
+    font-family: Cursive;
+    color: black;
+    text-align: center;
+      font-size: xx-large;
+}
+
+.Objetivos h4{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Objetivos input[type="submit"]{
+    margin: 20px 70px 0px 510px;
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    background: #007bff; 
+    font-family: cursive ;
+}
+
+.Objetivos img{
+    width: 500px;
+    height: 480px;
+    padding: 100px -10px -0px -0px  ; 
+    display: table-column;
+    margin:  5px 430px 190px;
+}   
+
