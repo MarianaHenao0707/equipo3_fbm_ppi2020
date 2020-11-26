@@ -1,0 +1,86 @@
+.Clasificacion h1{
+    font-family: cursive;
+    color: #007bff;
+    text-align: center;
+    padding: 70px 200px 50px 200px  ;
+}
+
+.Clasificacion h2{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h3{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h4{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h5{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h6{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h7{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h8{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h9{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+.Clasificacion h10{
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+.Clasificacion h11{
+    font-family: serif;
+    color: black;
+    text-align: center;
+
+}
+.Clasificacion input[type="submit"]{
+    margin: 20px 70px 0px 510px;
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    background: #007bff; 
+    font-family: cursive ;
+}
+.img{
+    width: 380px;
+    height: 320px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 7px 7px 7px -0px  ; 
+    display: flex;
+}
+
+.img{
+    margin: 180px 0px 180px 290px;
+}

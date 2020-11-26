@@ -25,7 +25,9 @@ function Sugerencias (){
 
           <from className="comentario">
               <input type="text" placeholder="" />
-              <input type="submit"value="Enviar"/>
+              <Link to="/Envioquejas" className="text-decoration-none">
+    <button className="btn btn-lg btn-primary btn-flex mb-3 col-7" type="submit">Enviar </button>
+    </Link>
           </from>
         </section>
 

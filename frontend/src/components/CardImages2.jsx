@@ -41,7 +41,7 @@ class CardImages2 extends Component {
             <div className="card-body">
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonInformate'><button type="button" className="btn btn-sm btn-outline-primary">Ayuda</button></Link>
+                <Link to='/Ayuda'><button type="button" className="btn btn-sm btn-outline-primary">Ayuda</button></Link>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ class CardImages2 extends Component {
             <div className="card-body">
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                <Link to='/botonQuienesomos'> <button type="button" className="btn btn-sm btn-outline-primary">Quiénes somos</button></Link>
+                <Link to='/botonQuienesadmin'> <button type="button" className="btn btn-sm btn-outline-primary">Quiénes somos</button></Link>
                 </div>
               </div>
             </div>

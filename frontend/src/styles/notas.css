@@ -19,11 +19,15 @@
     background: #007bff; 
     font-family: cursive ;
 }
-.Notas h3{
+
+.form-control{
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
     color: black;
     margin: -45px 70px 0px 560px;
     width: 330px;
     height: 60px;
     border-radius: 30px;
     font-family: cursive ;
-}
+}  

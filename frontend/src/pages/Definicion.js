@@ -23,7 +23,7 @@ function Definicion () {
  <section className="img">
            <img className="img" src={Queson} alt="Responsive image"/> 
            </section>
-                  <button ><Link to="/Buscar">volver</Link></button>
+                  <button ><Link to="/Informacion">volver</Link></button>
                   </div>
         </section>
         </section>
